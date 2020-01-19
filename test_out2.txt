@@ -1,0 +1,81 @@
+=======================
+The input line is [read_set , SETA]
+Illegal missplaced comma between command and set name
+=======================
+The input line is [read_set UNKNOWN]
+Incorrect set name [UNKNOWN]
+=======================
+The input line is [read_set SETA,1,3 -1]
+Missing comma in token [3 -1]
+=======================
+The input line is [read_set SETA 1,2,-1]
+Incorrect set name [SETA 1]
+=======================
+The input line is [read_set SETA ,1 2,-1]
+Missing comma in token [1 2]
+=======================
+The input line is [read_set SETA ,, 1,-1]
+more than one comma
+=======================
+The input line is [read_set SETA, 1 ,,-1]
+more than one comma
+=======================
+The input line is [read_set SETA, 1, 2]
+List of set members is not terminated correctly
+=======================
+The input line is [read_set SETA, 1, -1,]
+There is an illegal comma at the end of the command line
+=======================
+The input line is [read_set SETA, 1, -1 0]
+Missing comma in token [ -1 0]
+=======================
+The input line is [read_set SETA, 1, -1, 6]
+Extrenuous text after end of command
+=======================
+The input line is [read_set SETA, 1, -1,,]
+There is an illegal comma at the end of the command line
+=======================
+The input line is [read_set SETA, 1, 800, 9,-1]
+Invalid set memeber, number out of range
+=======================
+The input line is [read_set]
+This command requires more set names
+=======================
+The input line is [print_set]
+This command requires more set names
+=======================
+The input line is [print_set S]
+Incorrect set name [S]
+=======================
+The input line is [print_set SETA,]
+There is exstrenuous text at the end of the command line
+=======================
+The input line is [print_set , SETA]
+Illegal missplaced comma between command and set name
+=======================
+The input line is [print_set SETA ,2,-1]
+There is exstrenuous text at the end of the command line
+=======================
+The input line is [union_set]
+This command requires more set names
+=======================
+The input line is [union_set S]
+Incorrect set name [S]
+=======================
+The input line is [union_set , SETA, SETB, SETC]
+Illegal missplaced comma between command and set name
+=======================
+The input line is [union_set SETA]
+This command requires more set names
+=======================
+The input line is [union_set SETA,]
+This command requires more set names
+=======================
+The input line is [union_set SETA, SETB, SETC,]
+Exstrenuos text after the proper input to the command has ended
+=======================
+The input line is [union_set  SETA, SETB, SETC, SETD]
+Exstrenuos text after the proper input to the command has ended
+=======================
+The input line is [stop nkjn]
+There is extrenuous text at the end of the command line
